@@ -244,12 +244,6 @@ form a:hover{
     position: relative;
     background-color: #fff;
 }
-.trending-img .card-mini:hover{
-    color: #fff;
-    background: linear-gradient(to bottom, #002c54, #000);
-    box-shadow: -10px 10px #EFB509;
-    border: solid 3px #fff;
-}
 .trending-img .card-mini h1{
     font-size: medium;
     margin: 5px 0px;
@@ -278,12 +272,6 @@ form a:hover{
     z-index: 1;
     position: relative;
 }
-.trending-img .card:hover{
-    color: #fff;
-    background: linear-gradient(to bottom, #002c54, #000);
-    box-shadow: -15px 15px #EFB509;
-    border: solid 3px #fff;
-}
 .trending-img .card h1{
     margin: 10px 0px;
     float: left;
@@ -310,6 +298,9 @@ form a:hover{
     display: flex;
     justify-content: space-between;
 }
+.product h1{
+    font-size: 40px;
+}
 .product p{
     color: #AAAAAA;
 }
@@ -334,8 +325,120 @@ form a:hover{
 }
 .nav-card-list{
     width: 100%;
-    height: 500px;
-    padding: 0px 180px;
-    margin: 50px auto;
+    height: 400px;
+    margin: 25px auto;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    padding: 0px 120px;
+}
+.box-card{
+    margin: 0 auto;
+}
+.box-card .card{
+    width: 280px;
+    height: 400px;
+    margin: 0px 15px;
+    color: #000;
     border: solid 2px #000;
+    padding: 5px 7px;
+    background-color: #fff;
+}
+.box-card .card:hover{
+    color: #fff;
+    background: linear-gradient(to bottom, #002c54, #000);
+    box-shadow: -15px 15px #EFB509;
+    border: solid 3px #fff;
+}
+.box-card .card h1{
+    margin: 10px 0px;
+    float: left;
+    font-size: medium;
+}
+.box-card .card span{
+    margin: 10px 0px;
+    font-size: small;
+    float: right;
+    color: #AAAAAA;
+}
+.box-card .card img{
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+}
+#service{
+    margin-top: 100px;
+}
+.service{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0px 180px;
+    display: flex;
+}
+.service-heading h1{
+    text-align: center;
+    font-size: 40px;
+}
+.service-heading p{
+    margin: 15px 0px;
+    text-align: center;
+}
+.box-service{
+    width: 300px;
+    height: 400px;
+    flex-grow: 1;
+    border: solid 2px #000;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 10px;
+}
+.box-service img{
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    border: solid 2px #000;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.box-service h2{
+    margin: 10px 0px;
+}
+.box-service p{
+    margin: 15px 0px;
+    padding: 0px 30px;
+}
+#contact-us{
+    height: 800px;
+    margin: 25px auto;
+}
+#contact-us h1{
+    text-align: center;
+    font-size: 40px;
+}
+.contact-us{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery{
+    margin: 25px auto;
+    width: 368px;
+    height: 564px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    border: solid 5px #000;
+}
+.gallery:hover{
+    border: solid 5px #EFB509;
+}
+.gallery img{
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+    position: sticky;
+    top: 0;
 }
